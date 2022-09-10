@@ -1,7 +1,10 @@
 package JavaVideo;
 
-public class Student {
-    private int age;
+import Study_java_Problem.Teacher;
+
+public class Student extends Teacher {
+    public int age;
+    public int flag;
     private String name;
     public Student(){
 

@@ -2,7 +2,8 @@ package Study_java_Problem;
 
 public class Teacher {
  private String name;
- private int Age;
+    public int flag;
+ public int age;
 
     public Teacher() {
         System.out.println("test father on");
@@ -11,7 +12,7 @@ public class Teacher {
 
     public Teacher(String name, int age) {
         this.name = name;
-        Age = age;
+        this.age = age;
         System.out.println("test father two");
     }
 
@@ -20,7 +21,7 @@ public class Teacher {
     }
 
     public int getAge() {
-        return Age;
+        return age;
     }
     public void behavior(){
         System.out.println("play game");

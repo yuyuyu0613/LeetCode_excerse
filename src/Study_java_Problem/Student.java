@@ -3,7 +3,7 @@ package Study_java_Problem;
 public class Student extends Teacher{
     private String name;
 
-    private int age;
+    public int age;
 
     public Student() {
 
@@ -19,6 +19,9 @@ public class Student extends Teacher{
         this.name = name;
         this.age = age;
         System.out.println("test son two");
+    }
+
+    public Student(int i, String yu) {
     }
 
     ;
